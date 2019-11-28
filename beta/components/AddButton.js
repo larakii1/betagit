@@ -12,7 +12,7 @@ handlePress = () =>{
 Animated.sequence ([
 Animated.timing(this.buttonSize,{
     toValue:0.95,
-    duration : 200
+    duration : 10
 }),
 
 Animated.timing(this.buttonSize, {
